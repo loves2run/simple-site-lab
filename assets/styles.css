@@ -1,0 +1,82 @@
+/*
+==============================================
+general styles
+==============================================
+*/
+body {
+    background-color: #78cee9;
+    box-sizing: border-box;
+    border: 5px solid #00cb4a;
+    color: #fff;
+    margin: 28px;
+    padding: 50px;
+    width: 855px;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 40px;
+    font-style: italic;
+  }
+  
+  /*
+  ==============================================
+  nav
+  ==============================================
+  */
+  li {
+    border-right: 1px solid #808080;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0 6px;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  /*
+  ==============================================
+  section
+  ==============================================
+  */
+  h2 {
+    font-size: 26px;
+    font-weight: bold;
+  }
+  p {
+    line-height: 27px;
+    font-size: 18px;
+  }
+  
+  img {
+    float: right;
+    height: 300px;
+    margin: 0 0 40px 40px;
+  }
+  
+  /*
+  ==============================================
+  footer
+  ==============================================
+  */
+  footer {
+    clear: both;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  /*
+  ==============================================
+  links
+  ==============================================
+  */
+  
+  a {
+    color: #00cb9d;
+  }
+  
